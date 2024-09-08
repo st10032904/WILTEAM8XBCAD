@@ -11,7 +11,7 @@ namespace Prototype__.NET_
 {
 
 
-    public partial class Log_In
+    public partial class Login
     {
 
         /// <summary>
