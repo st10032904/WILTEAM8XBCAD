@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\landing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\landing.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\landing.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\landing.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\mainmenu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\mainmenu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\mainmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\mainmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\mainmenu.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\mainmenu.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\onedrive\\university\\year 3\\semester 2\\xbcad\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainMenu.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\MainMenu.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\MainMenu.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\MainMenu.aspx.designer.cs",
+              "RelativeToolTip": "Prototype (.NET)\\MainMenu.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:28:45.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\Register.aspx.cs",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Register.aspx.cs",
+              "RelativeToolTip": "Prototype (.NET)\\Register.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:27:04.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenu.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\MainMenu.aspx.cs",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\MainMenu.aspx.cs",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\MainMenu.aspx.cs",
+              "RelativeToolTip": "Prototype (.NET)\\MainMenu.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:22:36.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.aspx",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\MainMenu.aspx",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\MainMenu.aspx",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\MainMenu.aspx",
+              "RelativeToolTip": "Prototype (.NET)\\MainMenu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-08T21:16:26.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Login.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\Login.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Login.aspx.designer.cs",
+              "RelativeToolTip": "Prototype (.NET)\\Login.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:15:42.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Login.aspx.cs",
+              "RelativeToolTip": "Prototype (.NET)\\Login.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:13:54.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Login.aspx",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\Login.aspx",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Login.aspx",
+              "RelativeToolTip": "Prototype (.NET)\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-08T21:13:54.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Register.aspx",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\Register.aspx",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Register.aspx",
+              "RelativeToolTip": "Prototype (.NET)\\Register.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-08T21:13:23.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Landing.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Landing.aspx.cs",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\Landing.aspx.cs",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Landing.aspx.cs",
+              "RelativeToolTip": "Prototype (.NET)\\Landing.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:12:40.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Landing.aspx",
+              "DocumentMoniker": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Landing.aspx",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\Landing.aspx",
+              "ToolTip": "C:\\Users\\ali\\OneDrive\\University\\Year 3\\SEMESTER 2\\XBCAD\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Landing.aspx",
+              "RelativeToolTip": "Prototype (.NET)\\Landing.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-08T21:10:37.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
