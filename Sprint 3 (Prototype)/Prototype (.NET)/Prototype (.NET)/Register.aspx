@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Prototype__.NET_.Register" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Prototype__.NET_.Register" Async="true" %>
 
 <!DOCTYPE html>
 
@@ -76,8 +76,8 @@
                 <label for="txtLastName">Last Name:</label>
                 <asp:TextBox ID="txtLastName" runat="server" CssClass="form-control" placeholder="Enter Last Name"></asp:TextBox>
 
-                <label for="txtUsername">Username:</label>
-                <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control" placeholder="Enter Username"></asp:TextBox>
+                <label for="txtUsername">Email:</label>
+                <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control" placeholder="Enter Email"></asp:TextBox>
 
                 <label for="txtPassword">Password:</label>
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="form-control" placeholder="Enter Password"></asp:TextBox>
