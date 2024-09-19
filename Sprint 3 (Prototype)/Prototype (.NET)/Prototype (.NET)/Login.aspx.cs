@@ -1,53 +1,87 @@
 ﻿using System;
+using System.Data.SqlClient;
+using System.Security.Cryptography;
+using System.Text;
 using System.Web.UI;
-using FirebaseAdmin;
-using FirebaseAdmin.Auth;
-using Google.Apis.Auth.OAuth2;
-using System.Threading.Tasks;
 
 namespace Prototype__.NET_
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class Login : Page
     {
-        private static FirebaseAuth firebaseAuth;
-
-        protected void Page_Load(object sender, EventArgs e)
+        protected void btnLogin_Click(object sender, EventArgs e)
         {
-            if (FirebaseApp.DefaultInstance == null)
-            {
-                FirebaseApp.Create(new AppOptions
-                {
-                    Credential = GoogleCredential.FromFile(Server.MapPath("~/App_Start/wilteam8xbcad-firebase-adminsdk-jkssd-e97e11b234.json"))
-                });
-            }
-
-            if (firebaseAuth == null)
-            {
-                firebaseAuth = FirebaseAuth.DefaultInstance;
-            }
-        }
-
-        protected async void btnLogin_Click(object sender, EventArgs e)
-        {
-            string username = txtUsername.Text.Trim();
+            string email = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();
 
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
                 Response.Write("<script>alert('Please fill in all fields.');</script>");
                 return;
             }
 
-            try
-            {
-                var userCredential = await firebaseAuth.GetUserByEmailAsync(username);
+            string connectionString = "Server=tcp:aliteam8.database.windows.net,1433;Initial Catalog=wilteam8;Persist Security Info=False;User ID=ali;Password=Drogo101;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
-                Session["UserId"] = userCredential.Uid; // Store the user ID in session
-                Response.Redirect("MainMenu.aspx");
-            }
-            catch (FirebaseAuthException ex)
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                Response.Write($"<script>alert('Error: {ex.Message}');</script>");
+                string query = "SELECT PasswordHash, UserType FROM Users WHERE Email = @Email";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Email", email);
+
+                    try
+                    {
+                        connection.Open();
+                        SqlDataReader reader = command.ExecuteReader();
+
+                        if (reader.Read())
+                        {
+                            string storedHash = reader["PasswordHash"].ToString();
+                            string userType = reader["UserType"].ToString();
+
+                            
+                            if (VerifyPasswordHash(password, storedHash))
+                            {
+                                Session["UserEmail"] = email;
+                                Session["UserType"] = userType; 
+                                Response.Redirect("MainMenu.aspx");
+                            }
+                            else
+                            {
+                                Response.Write("<script>alert('Invalid email or password.');</script>");
+                            }
+                        }
+                        else
+                        {
+                            Response.Write("<script>alert('Invalid email or password.');</script>");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Response.Write($"<script>alert('Error: {ex.Message}');</script>");
+                    }
+                }
+            }
+        }
+
+        private bool VerifyPasswordHash(string password, string storedHash)
+        {
+            
+            string hashedInput = HashPassword(password);
+            return hashedInput.Equals(storedHash, StringComparison.OrdinalIgnoreCase);
+        }
+
+        private string HashPassword(string password)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                StringBuilder builder = new StringBuilder();
+                foreach (byte b in bytes)
+                {
+                    builder.Append(b.ToString("x2"));
+                }
+                return builder.ToString();
             }
         }
     }

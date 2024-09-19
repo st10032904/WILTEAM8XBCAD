@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Prototype__.NET_.Login" Async="true" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Prototype__.NET_.Login" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -69,8 +69,8 @@
         <form id="form1" runat="server">
             <div class="form-container">
                 <h2>Login</h2>
-                <label for="txtUsername">Username:</label>
-                <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control" placeholder="Enter Username"></asp:TextBox>
+                <label for="txtUsername">Email:</label>
+                <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control" placeholder="Enter Email"></asp:TextBox>
 
                 <label for="txtPassword">Password:</label>
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="form-control" placeholder="Enter Password"></asp:TextBox>

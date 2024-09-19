@@ -57,6 +57,7 @@ namespace Prototype__.NET_
                     }
                 }
             }
+            Response.Redirect("Login.aspx");
         }
 
         private string HashPassword(string password)
