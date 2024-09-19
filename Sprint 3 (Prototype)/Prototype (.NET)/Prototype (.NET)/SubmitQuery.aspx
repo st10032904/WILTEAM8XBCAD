@@ -1,24 +1,23 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SubmitQuery.aspx.cs" Inherits="Prototype__.NET_.SubmitQuery" Async="true" %>
 
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Submit Query</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f4;
-        }
-
-        h1 {
-            text-align: center;
-            color: #4CAF50;
         }
 
         .container {
             display: flex;
             justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
         .form-container {
@@ -28,6 +27,7 @@
             padding: 20px;
             width: 400px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
         .form-container h2 {
@@ -65,29 +65,28 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div class="container">
+    <div class="container">
+        <form id="form1" runat="server">
             <div class="form-container">
-                <h2>Submit a Query</h2>
-
-                <label for="ddlCategory">Category:</label>
-                <asp:DropDownList ID="ddlCategory" runat="server" CssClass="form-control">
-                    <asp:ListItem>Select a Category</asp:ListItem>
-                    <asp:ListItem>Academic Issue</asp:ListItem>
-                    <asp:ListItem>Administrative Issue</asp:ListItem>
-                    <asp:ListItem>Financial Aid</asp:ListItem>
-                    
+                <h2>Submit Query</h2>
+                <label for="ddlQueryType">Query Type:</label>
+                <asp:DropDownList ID="ddlQueryType" runat="server">
+                    <asp:ListItem Text="Select Query Type" Value=""></asp:ListItem>
+                    <asp:ListItem Text="Academic" Value="Academic"></asp:ListItem>
+                    <asp:ListItem Text="Finances" Value="Finances"></asp:ListItem>
+                    <asp:ListItem Text="Housing" Value="Housing"></asp:ListItem>
+                    <asp:ListItem Text="Other" Value="Other"></asp:ListItem>
                 </asp:DropDownList>
 
                 <label for="txtTitle">Title:</label>
-                <asp:TextBox ID="txtTitle" runat="server" CssClass="form-control" placeholder="Enter the title of your query"></asp:TextBox>
+                <asp:TextBox ID="txtTitle" runat="server" placeholder="Enter Title"></asp:TextBox>
 
                 <label for="txtDescription">Description:</label>
-                <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" CssClass="form-control" placeholder="Describe your issue or question"></asp:TextBox>
+                <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="4" placeholder="Describe your query"></asp:TextBox>
 
-                <asp:Button ID="btnSubmitQuery" runat="server" Text="Submit Query" CssClass="form-button" OnClick="btnSubmitQuery_Click" />
+                <asp:Button ID="btnSubmitQuery" runat="server" Text="Submit" OnClick="btnSubmitQuery_Click" />
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
 </body>
 </html>

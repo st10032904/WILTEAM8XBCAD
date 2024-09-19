@@ -23,7 +23,7 @@ namespace Prototype__.NET_
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "SELECT PasswordHash, UserType FROM Users WHERE Email = @Email";
+                string query = "SELECT UserID, PasswordHash, UserType FROM Users WHERE Email = @Email";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
@@ -38,12 +38,13 @@ namespace Prototype__.NET_
                         {
                             string storedHash = reader["PasswordHash"].ToString();
                             string userType = reader["UserType"].ToString();
+                            string userID = reader["UserID"].ToString(); 
 
-                            
                             if (VerifyPasswordHash(password, storedHash))
                             {
                                 Session["UserEmail"] = email;
-                                Session["UserType"] = userType; 
+                                Session["UserType"] = userType;
+                                Session["UserID"] = userID; 
                                 Response.Redirect("MainMenu.aspx");
                             }
                             else
@@ -66,7 +67,6 @@ namespace Prototype__.NET_
 
         private bool VerifyPasswordHash(string password, string storedHash)
         {
-            
             string hashedInput = HashPassword(password);
             return hashedInput.Equals(storedHash, StringComparison.OrdinalIgnoreCase);
         }
