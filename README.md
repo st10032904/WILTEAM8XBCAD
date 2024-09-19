@@ -23,7 +23,7 @@ Once installed, simply build and run the project through Visual Studio.
 
 # Changes (As per last commit)
 
-*bullet represents items that are not fully completed or fully implemented.
+*bullet represents items that are not fully completed or fully implemented.*
 
 - Connected to Azure Database
 [x] Login
