@@ -247,6 +247,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="StatusTracking.aspx" />
     <Content Include="SubmitQuery.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -322,6 +323,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="StatusTracking.aspx.cs">
+      <DependentUpon>StatusTracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StatusTracking.aspx.designer.cs">
+      <DependentUpon>StatusTracking.aspx</DependentUpon>
     </Compile>
     <Compile Include="SubmitQuery.aspx.cs">
       <DependentUpon>SubmitQuery.aspx</DependentUpon>

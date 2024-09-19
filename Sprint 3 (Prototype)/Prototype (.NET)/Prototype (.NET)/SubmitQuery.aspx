@@ -62,6 +62,16 @@
         .form-container button:hover {
             background-color: #45a049;
         }
+
+        .form-container .back-button {
+            background-color: #f4f4f4;
+            color: #333;
+            border: 1px solid #ccc;
+        }
+
+        .form-container .back-button:hover {
+            background-color: #ddd;
+        }
     </style>
 </head>
 <body>
@@ -85,6 +95,8 @@
                 <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="4" placeholder="Describe your query"></asp:TextBox>
 
                 <asp:Button ID="btnSubmitQuery" runat="server" Text="Submit" OnClick="btnSubmitQuery_Click" />
+
+                <asp:Button ID="btnBack" runat="server" Text="Back" CssClass="back-button" OnClick="btnBack_Click" />
             </div>
         </form>
     </div>

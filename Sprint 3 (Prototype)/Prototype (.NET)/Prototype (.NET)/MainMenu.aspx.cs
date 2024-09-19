@@ -16,22 +16,22 @@ namespace Prototype__.NET_
 
         protected void btnTrackStatus_Click(object sender, EventArgs e)
         {
-            // Implement status tracking functionality
+            Response.Redirect("StatusTracking.aspx");
         }
 
         protected void btnUploadDocs_Click(object sender, EventArgs e)
         {
-            // Implement document upload functionality
+            
         }
 
         protected void btnKnowledgeBase_Click(object sender, EventArgs e)
         {
-            // Implement knowledge base browsing functionality
+           
         }
 
         protected void btnAnalytics_Click(object sender, EventArgs e)
         {
-            // Implement analytics and reporting functionality
+            
         }
     }
 }

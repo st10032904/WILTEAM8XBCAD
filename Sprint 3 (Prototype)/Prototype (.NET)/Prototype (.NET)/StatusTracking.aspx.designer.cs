@@ -11,7 +11,7 @@ namespace Prototype__.NET_
 {
 
 
-    public partial class SubmitQuery
+    public partial class StatusTracking
     {
 
         /// <summary>
@@ -24,40 +24,22 @@ namespace Prototype__.NET_
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// ddlQueryType control.
+        /// GridViewQueries control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlQueryType;
+        protected global::System.Web.UI.WebControls.GridView GridViewQueries;
 
         /// <summary>
-        /// txtTitle control.
+        /// lblMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTitle;
-
-        /// <summary>
-        /// txtDescription control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDescription;
-
-        /// <summary>
-        /// btnSubmitQuery control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmitQuery;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
 
         /// <summary>
         /// btnBack control.
