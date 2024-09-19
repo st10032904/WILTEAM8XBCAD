@@ -51,51 +51,32 @@
         .menu-item button:hover {
             background-color: #45a049;
         }
-
-        .menu-item select {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <h1>Main Menu</h1>
         <div class="container">
-          
             <div class="menu-item">
                 <h3>Submit a Query</h3>
-                <asp:DropDownList ID="ddlQueryCategory" runat="server">
-                    <asp:ListItem>Select a Category</asp:ListItem>
-                    <asp:ListItem>Academic Issue</asp:ListItem>
-                    <asp:ListItem>Administrative Issue</asp:ListItem>
-                    <asp:ListItem>Financial Aid</asp:ListItem>
-                </asp:DropDownList>
                 <asp:Button ID="btnSubmitQuery" runat="server" Text="Submit Query" OnClick="btnSubmitQuery_Click" />
             </div>
 
-           
             <div class="menu-item">
                 <h3>Status Tracking</h3>
                 <asp:Button ID="btnTrackStatus" runat="server" Text="Track Status" OnClick="btnTrackStatus_Click" />
             </div>
 
-            
             <div class="menu-item">
                 <h3>Upload Documents</h3>
                 <asp:Button ID="btnUploadDocs" runat="server" Text="Upload" OnClick="btnUploadDocs_Click" />
             </div>
 
-           
             <div class="menu-item">
                 <h3>Knowledge Base</h3>
                 <asp:Button ID="btnKnowledgeBase" runat="server" Text="Browse FAQs" OnClick="btnKnowledgeBase_Click" />
             </div>
 
-            
             <div class="menu-item">
                 <h3>Analytics & Reporting</h3>
                 <asp:Button ID="btnAnalytics" runat="server" Text="View Reports" OnClick="btnAnalytics_Click" />

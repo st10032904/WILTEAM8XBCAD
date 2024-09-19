@@ -13,7 +13,6 @@ namespace Prototype__.NET_
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Initialize Firebase only once when the app loads
             if (FirebaseApp.DefaultInstance == null)
             {
                 FirebaseApp.Create(new AppOptions
@@ -30,7 +29,7 @@ namespace Prototype__.NET_
 
         protected async void btnLogin_Click(object sender, EventArgs e)
         {
-            string username = txtUsername.Text.Trim(); 
+            string username = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
@@ -41,15 +40,13 @@ namespace Prototype__.NET_
 
             try
             {
-                
                 var userCredential = await firebaseAuth.GetUserByEmailAsync(username);
 
-                
+                Session["UserId"] = userCredential.Uid; // Store the user ID in session
                 Response.Redirect("MainMenu.aspx");
             }
             catch (FirebaseAuthException ex)
             {
-                
                 Response.Write($"<script>alert('Error: {ex.Message}');</script>");
             }
         }

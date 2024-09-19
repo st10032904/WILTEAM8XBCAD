@@ -42,7 +42,7 @@
             color: #333;
         }
 
-        .form-container input {
+        .form-container input, .form-container select {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
@@ -81,6 +81,21 @@
 
                 <label for="txtPassword">Password:</label>
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="form-control" placeholder="Enter Password"></asp:TextBox>
+
+                <label for="txtStudentID">Student ID:</label>
+                <asp:TextBox ID="txtStudentID" runat="server" CssClass="form-control" placeholder="Enter Student ID"></asp:TextBox>
+
+                <label for="txtDepartment">Department:</label>
+                <asp:TextBox ID="txtDepartment" runat="server" CssClass="form-control" placeholder="Enter Department"></asp:TextBox>
+
+                <label for="txtCourse">Course:</label>
+                <asp:TextBox ID="txtCourse" runat="server" CssClass="form-control" placeholder="Enter Course"></asp:TextBox>
+
+                <label for="ddlUserType">User Type:</label>
+                <asp:DropDownList ID="ddlUserType" runat="server" CssClass="form-control">
+                    <asp:ListItem Value="Student">Student</asp:ListItem>
+                    <asp:ListItem Value="Staff">Staff</asp:ListItem>
+                </asp:DropDownList>
 
                 <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="form-button" OnClick="btnRegister_Click" />
             </div>

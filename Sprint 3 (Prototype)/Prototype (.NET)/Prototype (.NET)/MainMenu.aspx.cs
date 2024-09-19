@@ -7,38 +7,31 @@ namespace Prototype__.NET_
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
         }
 
         protected void btnSubmitQuery_Click(object sender, EventArgs e)
         {
-           
-            string selectedCategory = ddlQueryCategory.SelectedValue;
-            Response.Write($"<script>alert('Submitting query for category: {selectedCategory}');</script>");
+            Response.Redirect("SubmitQuery.aspx");
         }
 
         protected void btnTrackStatus_Click(object sender, EventArgs e)
         {
-            
-            Response.Write("<script>alert('Status tracking button clicked.');</script>");
+            // Implement status tracking functionality
         }
 
         protected void btnUploadDocs_Click(object sender, EventArgs e)
         {
-            
-            Response.Write("<script>alert('Upload Documents button clicked.');</script>");
+            // Implement document upload functionality
         }
 
         protected void btnKnowledgeBase_Click(object sender, EventArgs e)
         {
-           
-            Response.Write("<script>alert('Browse FAQs button clicked.');</script>");
+            // Implement knowledge base browsing functionality
         }
 
         protected void btnAnalytics_Click(object sender, EventArgs e)
         {
-            
-            Response.Write("<script>alert('Analytics & Reporting button clicked.');</script>");
+            // Implement analytics and reporting functionality
         }
     }
 }

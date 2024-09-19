@@ -1,88 +1,76 @@
 ﻿using System;
+using System.Data.SqlClient;
+using System.Security.Cryptography;
+using System.Text;
 using System.Web.UI;
-using FirebaseAdmin;
-using FirebaseAdmin.Auth;
-using Firebase.Database;
-using Google.Apis.Auth.OAuth2;
-using System.Threading.Tasks;
-using Firebase.Database.Query;
 
 namespace Prototype__.NET_
 {
-    public partial class Register : System.Web.UI.Page
+    public partial class Register : Page
     {
-        private static FirebaseClient firebaseClient;
-
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            // Initialize Firebase only once when the app loads
-            if (FirebaseApp.DefaultInstance == null)
-            {
-                FirebaseApp.Create(new AppOptions
-                {
-                    Credential = GoogleCredential.FromFile(Server.MapPath("~/App_Start/wilteam8xbcad-firebase-adminsdk-jkssd-e97e11b234.json"))
-                });
-            }
-
-            if (firebaseClient == null)
-            {
-                firebaseClient = new FirebaseClient("https://wilteam8xbcad-default-rtdb.firebaseio.com/");
-            }
-        }
-
-        protected async void btnRegister_Click(object sender, EventArgs e)
+        protected void btnRegister_Click(object sender, EventArgs e)
         {
             string firstName = txtFirstName.Text.Trim();
             string lastName = txtLastName.Text.Trim();
-            string username = txtUsername.Text.Trim();
+            string email = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();
+            string studentId = txtStudentID.Text.Trim();
+            string department = txtDepartment.Text.Trim();
+            string course = txtCourse.Text.Trim();
+            string userType = ddlUserType.SelectedValue;
 
-            
-            if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) ||
-                string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(email) ||
+                string.IsNullOrEmpty(password) || string.IsNullOrEmpty(studentId) || string.IsNullOrEmpty(department) ||
+                string.IsNullOrEmpty(course))
             {
                 Response.Write("<script>alert('Please fill in all fields.');</script>");
                 return;
             }
 
-            try
+            string connectionString = "Server=tcp:aliteam8.database.windows.net,1433;Initial Catalog=wilteam8;Persist Security Info=False;User ID=ali;Password=Drogo101;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
+            string hashedPassword = HashPassword(password);
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                // Create a new user in Firebase 
-                UserRecordArgs userRecordArgs = new UserRecordArgs
+                string query = "INSERT INTO Users (Email, PasswordHash, StudentId, Department, Course, UserType) " +
+                               "VALUES (@Email, @PasswordHash, @StudentId, @Department, @Course, @UserType)";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
                 {
-                    Email = username,
-                    Password = password,
-                    DisplayName = $"{firstName} {lastName}"
-                };
+                    command.Parameters.AddWithValue("@Email", email);
+                    command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
+                    command.Parameters.AddWithValue("@StudentId", studentId);
+                    command.Parameters.AddWithValue("@Department", department);
+                    command.Parameters.AddWithValue("@Course", course);
+                    command.Parameters.AddWithValue("@UserType", userType);
 
-                UserRecord userRecord = await FirebaseAuth.DefaultInstance.CreateUserAsync(userRecordArgs);
-
-               
-                await StoreUserDetailsInDatabase(userRecord.Uid, firstName, lastName);
-
-                
-                Response.Redirect("Login.aspx");
-            }
-            catch (FirebaseAuthException ex)
-            {
-               
-                Response.Write($"<script>alert('Error: {ex.Message}');</script>");
+                    try
+                    {
+                        connection.Open();
+                        command.ExecuteNonQuery();
+                        Response.Write("<script>alert('Registration successful.');</script>");
+                    }
+                    catch (Exception ex)
+                    {
+                        Response.Write($"<script>alert('Error: {ex.Message}');</script>");
+                    }
+                }
             }
         }
 
-       
-        public async Task StoreUserDetailsInDatabase(string uid, string firstName, string lastName)
+        private string HashPassword(string password)
         {
-            
-            await firebaseClient
-                .Child("users")
-                .Child(uid)
-                .PutAsync(new
+            using (var sha256 = SHA256.Create())
+            {
+                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                StringBuilder builder = new StringBuilder();
+                foreach (byte b in bytes)
                 {
-                    FirstName = firstName,
-                    LastName = lastName,
-                    CreatedAt = DateTime.UtcNow
-                });
+                    builder.Append(b.ToString("x2"));
+                }
+                return builder.ToString();
+            }
         }
     }
 }
