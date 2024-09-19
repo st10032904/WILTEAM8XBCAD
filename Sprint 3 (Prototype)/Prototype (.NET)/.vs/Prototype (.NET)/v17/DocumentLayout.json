@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\downloads\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\downloads\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\downloads\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\prototype (.net)\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|c:\\users\\ali\\downloads\\wilteam8xbcad\\sprint 3 (prototype)\\prototype (.net)\\prototype (.net)\\staffdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\prototype (.net)\\staffdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E77917E6-FCED-4574-82E7-92EA1E1897D8}|Prototype (.NET)\\Prototype (.NET).csproj|solutionrelative:prototype (.net)\\staffdashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -70,11 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Web.config",
+              "RelativeDocumentMoniker": "Prototype (.NET)\\Web.config",
+              "ToolTip": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Web.config",
+              "RelativeToolTip": "Prototype (.NET)\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-19T17:21:23.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Home.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Home.aspx.cs",
               "RelativeDocumentMoniker": "Prototype (.NET)\\Home.aspx.cs",
@@ -82,12 +99,11 @@
               "RelativeToolTip": "Prototype (.NET)\\Home.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T15:39:25.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T15:39:25.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home.aspx",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Home.aspx",
               "RelativeDocumentMoniker": "Prototype (.NET)\\Home.aspx",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StaffDashboard.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\StaffDashboard.aspx.cs",
               "RelativeDocumentMoniker": "Prototype (.NET)\\StaffDashboard.aspx.cs",
@@ -108,12 +124,11 @@
               "RelativeToolTip": "Prototype (.NET)\\StaffDashboard.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T15:23:13.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T15:23:13.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StaffDashboard.aspx",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\StaffDashboard.aspx",
               "RelativeDocumentMoniker": "Prototype (.NET)\\StaffDashboard.aspx",
@@ -121,12 +136,11 @@
               "RelativeToolTip": "Prototype (.NET)\\StaffDashboard.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-19T15:22:11.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T15:22:11.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StaffLogin.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\StaffLogin.aspx.cs",
               "RelativeDocumentMoniker": "Prototype (.NET)\\StaffLogin.aspx.cs",
@@ -134,12 +148,11 @@
               "RelativeToolTip": "Prototype (.NET)\\StaffLogin.aspx.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAiwCoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T15:21:58.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T15:21:58.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "StaffLogin.aspx",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\StaffLogin.aspx",
               "RelativeDocumentMoniker": "Prototype (.NET)\\StaffLogin.aspx",
@@ -147,12 +160,11 @@
               "RelativeToolTip": "Prototype (.NET)\\StaffLogin.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-19T15:21:37.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T15:21:37.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Register.aspx",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Register.aspx",
               "RelativeDocumentMoniker": "Prototype (.NET)\\Register.aspx",
@@ -160,12 +172,11 @@
               "RelativeToolTip": "Prototype (.NET)\\Register.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-19T14:59:14.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:59:14.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "StatusTracking.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\StatusTracking.aspx.cs",
               "RelativeDocumentMoniker": "Prototype (.NET)\\StatusTracking.aspx.cs",
@@ -173,12 +184,11 @@
               "RelativeToolTip": "Prototype (.NET)\\StatusTracking.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T14:47:54.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:47:54.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "StatusTracking.aspx",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\StatusTracking.aspx",
               "RelativeDocumentMoniker": "Prototype (.NET)\\StatusTracking.aspx",
@@ -186,12 +196,11 @@
               "RelativeToolTip": "Prototype (.NET)\\StatusTracking.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-19T14:45:32.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:45:32.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MainMenu.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\MainMenu.aspx.cs",
               "RelativeDocumentMoniker": "Prototype (.NET)\\MainMenu.aspx.cs",
@@ -199,12 +208,11 @@
               "RelativeToolTip": "Prototype (.NET)\\MainMenu.aspx.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwBwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T14:35:54.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:35:54.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Login.aspx.cs",
               "RelativeDocumentMoniker": "Prototype (.NET)\\Login.aspx.cs",
@@ -212,12 +220,11 @@
               "RelativeToolTip": "Prototype (.NET)\\Login.aspx.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T14:34:24.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:34:24.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\Login.aspx",
               "RelativeDocumentMoniker": "Prototype (.NET)\\Login.aspx",
@@ -225,12 +232,11 @@
               "RelativeToolTip": "Prototype (.NET)\\Login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-19T14:33:30.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:33:30.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MainMenu.aspx",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\MainMenu.aspx",
               "RelativeDocumentMoniker": "Prototype (.NET)\\MainMenu.aspx",
@@ -238,12 +244,11 @@
               "RelativeToolTip": "Prototype (.NET)\\MainMenu.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-19T14:33:32.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:33:32.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SubmitQuery.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\SubmitQuery.aspx.cs",
               "RelativeDocumentMoniker": "Prototype (.NET)\\SubmitQuery.aspx.cs",
@@ -251,12 +256,11 @@
               "RelativeToolTip": "Prototype (.NET)\\SubmitQuery.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T14:28:56.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:28:56.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SubmitQuery.aspx",
               "DocumentMoniker": "C:\\Users\\ali\\Downloads\\WILTEAM8XBCAD\\Sprint 3 (Prototype)\\Prototype (.NET)\\Prototype (.NET)\\SubmitQuery.aspx",
               "RelativeDocumentMoniker": "Prototype (.NET)\\SubmitQuery.aspx",
@@ -264,8 +268,7 @@
               "RelativeToolTip": "Prototype (.NET)\\SubmitQuery.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-19T14:28:54.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T14:28:54.08Z"
             }
           ]
         }
